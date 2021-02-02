@@ -25,6 +25,9 @@ int main(int argc, char **argv)
         logger_info("Starting settings-service...");
         process_run("settings-service", nullptr);
 
+        logger_info("Starting mixer daemon...");
+        process_run("mixer", nullptr);
+
         int splash_pid = -1;
         process_run("splash-screen", &splash_pid);
         process_wait(splash_pid, nullptr);
