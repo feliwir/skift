@@ -32,6 +32,7 @@ UTILITIES = \
 	PWD	\
 	RMDIR \
 	SETTINGSCTL \
+	SOUNDCTL \
 	SYSFETCH \
 	TAC \
 	TOUCH \
@@ -166,6 +167,9 @@ POWERCTL_NAME = powerctl
 
 SETTINGSCTL_LIBS = settings
 SETTINGSCTL_NAME = settingsctl
+
+SOUNDCTL_LIBS = 
+SOUNDCTL_NAME = soundctl
 
 WALLPAPERCTL_LIBS = graphic
 WALLPAPERCTL_NAME = wallpaperctl
